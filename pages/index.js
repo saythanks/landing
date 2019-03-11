@@ -50,7 +50,7 @@ const Index = () => {
         >
           <label
             htmlFor="email"
-            className="uppercase tracking-wide font-bold text-xs text-grey-400"
+            className="uppercase tracking-wide font-bold text-xs text-grey-400 mb-1 block"
           >
             Find out when we launch
           </label>

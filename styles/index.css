@@ -5,6 +5,10 @@
 * {
   box-sizing: border-box;
 }
+::-webkit-input-placeholder {
+  padding-top: 4px;
+  color: config('colors.grey-200');
+}
 
 html,
 body,
