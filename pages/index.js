@@ -1,27 +1,11 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 import '../styles/index.css'
-import axios from 'axios'
+import Trend from 'react-trend'
 
 const Index = () => {
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
-
-  const onSubmit = e => {
-    e.preventDefault()
-
-    setLoading(true)
-
-    const url = e.target.action
-    axios(url, {
-      MERGE0: email,
-      u: '883f0f3764fd0eae45407ac87',
-      id: '74b403ab81',
-    })
-      .then(console.log)
-      .catch(console.error)
-      .finally(() => setLoading(false))
-  }
 
   return (
     <div className="min-h-full font-sans">
@@ -132,8 +116,7 @@ const Index = () => {
             </h2>
             <p className="leading-normal text-grey-500 text-lg">
               Instead of focusing on clicks or affiliate links, focus on
-              creating great content, focus on what you want to be doing. And be
-              rewarded for it.
+              creating great content, focus on what you want to be doing.
             </p>
           </div>
         </div>
@@ -155,6 +138,22 @@ const Index = () => {
           </div>
         </div>
       </section>
+      {/* 
+      <section className="py-12">
+        <div className="max-w-sm">
+          <Trend
+            smooth
+            autoDraw
+            autoDrawDuration={5000}
+            autoDrawEasing="ease-out"
+            data={[0, 2, 5, 9, 8, 10, 11, 7, 9, 8, 10, 12, 15, 22, 26]}
+            gradient={['#00c6ff', '#F0F', '#FF0']}
+            radius={10}
+            strokeWidth={2}
+            strokeLinecap={'round'}
+          />
+        </div>
+      </section> */}
     </div>
   )
 }
