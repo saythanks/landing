@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import "../styles/index.css";
+import "../styles/privacy.css";
 import Trend from "react-trend";
 
 const Privacy = () => {
@@ -37,8 +37,8 @@ const Privacy = () => {
         <section className="container mx-auto px-4 pb-32 items-center">
           <div className="bg-white shadow-lg rounded bg-white p-12">
             <p className="leading-normal text-grey-400 text-lg">
-              Buy Me A Coffee is a platform for creators to accept support from
-              their audience and share exclusive content.At Buy Me A Coffee,
+              SayThanks is a platform for creators to accept support from
+              their audience and share exclusive content.At SayThanks,
               your privacy is important to us, and we want you to feel confident
               that your personal information is secure when using our products
               and our platform.
@@ -48,18 +48,18 @@ const Privacy = () => {
               Website Visitors{" "}
             </h2>{" "}
             <p className="leading-normal text-grey-400 text-lg">
-              Like most website operators, Buy Me A Coffee collects non -
+              Like most website operators, SayThanks collects non -
               personally - identifying information of the sort that web browsers
               and servers typically make available, such as the browser type,
               language preference, referring site, and the date and time of each
-              visitor request.Buy Me A Coffee 's purpose in collecting
+              visitor request.SayThanks 's purpose in collecting
               non-personally identifying information is to better understand how
-              Buy Me A Coffee' s visitors use its website.From time to time, Buy
-              Me A Coffee may release non - personally - identifying information
+              SayThanks' s visitors use its website.From time to time,
+              SayThanks may release non - personally - identifying information
               in the aggregate, e.g., by publishing a report on trends in the
               usage of its website. <br />
               <br />
-              Buy Me A Coffee also collects potentially personally - identifying
+              SayThanks also collects potentially personally - identifying
               information like Internet Protocol(IP) addresses for logged in
               users and for users making payments on{" "}
               <Link href="/">
@@ -67,11 +67,11 @@ const Privacy = () => {
                   SayThanks
                 </a>
               </Link>
-              . Buy Me A Coffee only discloses logged in user and commenter IP
+              . SayThanks only discloses logged in user and commenter IP
               addresses under the same circumstances that it uses and discloses
               personally-identifying information as described below, except that
               payee IP addresses and email addresses are visible and disclosed
-              to the administrators of BuyMeACoffee and is handled by payment
+              to the administrators of SayThanks and is handled by payment
               processors at the time of processing the payments.{" "}
             </p>{" "}
             <div className="bg-grey-600 h-px my-12" />
@@ -79,7 +79,7 @@ const Privacy = () => {
               Payments{" "}
             </h2>{" "}
             <p className="leading-normal text-grey-400 text-lg">
-              To make a payment to a creator on Buy Me A Coffee, you have to
+              To make a payment to a creator on SayThanks, you have to
               provide our payment processor(Stripe) with your payment
               information.They provide us with a token that represents your
               account, your card’ s expiration date, card type and the last four
@@ -96,10 +96,10 @@ const Privacy = () => {
               Gathering of Personally - Identifying Information{" "}
             </h2>{" "}
             <p className="leading-normal text-grey-400 text-lg">
-              Certain visitors to Buy Me A Coffee 's websites choose to interact
-              with Buy Me A Coffee in ways that require Buy Me A Coffee to
+              Certain visitors to SayThanks 's websites choose to interact
+              with SayThanks in ways that require SayThanks to
               gather personally-identifying information. The amount and type of
-              information that Buy Me A Coffee gathers depends on the nature of
+              information that SayThanks gathers depends on the nature of
               the interaction. For example, we ask visitors who sign up at{" "}
               <Link href="/">
                 <a className="text-pink-400 font-bold no-underline">
@@ -107,12 +107,12 @@ const Privacy = () => {
                 </a>
               </Link>
               to provide a username and email address. Those who engage in
-              transactions with Buy Me A Coffee are asked to provide additional
+              transactions with SayThanks are asked to provide additional
               information, including as necessary the personal and financial
               information required to process those transactions. In each case,
-              Buy Me A Coffee collects such information only insofar as is
+              SayThanks collects such information only insofar as is
               necessary or appropriate to fulfill the purpose of the visitor' s
-              interaction with Buy Me A Coffee.Buy Me A Coffee does not disclose
+              interaction with SayThanks.SayThanks does not disclose
               personally - identifying information other than as described
               below.And visitors can always refuse to supply personally -
               identifying information, with the caveat that it may prevent them
@@ -123,10 +123,9 @@ const Privacy = () => {
               Aggregated Statistics{" "}
             </h2>{" "}
             <p className="leading-normal text-grey-400 text-lg">
-              Buy Me A Coffee may collect statistics about the behavior of
-              visitors to its websites.Buy Me A Coffee may display this
-              information publicly or provide it to others.However, Buy Me A
-              Coffee does not disclose personally - identifying information
+              SayThanks may collect statistics about the behavior of
+              visitors to its websites.SayThanks may display this
+              information publicly or provide it to others.However, SayThanks does not disclose personally - identifying information
               other than as described below.{" "}
             </p>{" "}
             <div className="bg-grey-600 h-px my-12" />
@@ -134,33 +133,31 @@ const Privacy = () => {
               Protection of Certain Personally - Identifying Information{" "}
             </h2>{" "}
             <p className="leading-normal text-grey-400 text-lg">
-              Buy Me A Coffee discloses potentially personally - identifying and
+              SayThanks discloses potentially personally - identifying and
               personally - identifying information only to those of its
               employees, contractors and affiliated organizations that(i) need
-              to know that information in order to process it on Buy Me A Coffee
-              's behalf or to provide services available at Buy Me A Coffee' s
+              to know that information in order to process it on SayThanks
+              's behalf or to provide services available at SayThanks' s
               websites, and(ii) that have agreed not to disclose it to
               others.Some of those employees, contractors and affiliated
               organizations may be located outside of your home country; by
-              using Buy Me A Coffee 's websites, you consent to the transfer of
-              such information to them. Buy Me A Coffee will not rent or sell
+              using SayThanks 's websites, you consent to the transfer of
+              such information to them. SayThanks will not rent or sell
               potentially personally-identifying and personally-identifying
               information to anyone. Other than to its employees, contractors
-              and affiliated organizations, as described above, Buy Me A Coffee
+              and affiliated organizations, as described above, SayThanks
               discloses potentially personally-identifying and
               personally-identifying information only in response to a subpoena,
-              court order or other governmental request, or when Buy Me A Coffee
+              court order or other governmental request, or when SayThanks
               believes in good faith that disclosure is reasonably necessary to
-              protect the property or rights of Buy Me A Coffee, third parties
-              or the public at large. If you are a registered user of an Buy Me
-              A Coffee website and have supplied your email address, Buy Me A
-              Coffee may occasionally send you an email to tell you about new
+              protect the property or rights of SayThanks, third parties
+              or the public at large. If you are a registered user of an SayThanks website and have supplied your email address, SayThanks may occasionally send you an email to tell you about new
               features, solicit your feedback, or just keep you up to date with
-              what' s going on with Buy Me A Coffee and our products.If you send
+              what' s going on with SayThanks and our products.If you send
               us a request( for example via email or via one of our feedback
               mechanisms), we reserve the right to publish it in order to help
               us clarify or respond to your request or to help us support other
-              users.Buy Me A Coffee takes all measures reasonably necessary to
+              users.SayThanks takes all measures reasonably necessary to
               protect against the unauthorized access, use, alteration or
               destruction of potentially personally - identifying and personally
               - identifying information.{" "}
@@ -184,8 +181,8 @@ const Privacy = () => {
               </a>{" "}
               <br />
               <br />
-              Buy Me A Coffee uses cookies to help Buy Me A Coffee identify and
-              track visitors, their usage of Buy Me A Coffee website, and their
+              SayThanks uses cookies to help SayThanks identify and
+              track visitors, their usage of SayThanks website, and their
               website access preferences.Some cookies expire after a certain
               amount of time, or upon logging out(session cookies), others
               remain on your computer or terminal device for a longer
@@ -227,10 +224,10 @@ const Privacy = () => {
               Analytics privacy practices, read here.
               <br />
               <br />
-              Buy Me A Coffee visitors who do not wish to have cookies placed on
+              SayThanks visitors who do not wish to have cookies placed on
               their computers should set their browsers to refuse cookies before
-              using Buy Me A Coffee's websites, with the drawback that certain
-              features of Buy Me A Coffee's websites may not function properly
+              using SayThanks's websites, with the drawback that certain
+              features of SayThanks's websites may not function properly
               without the aid of cookies.
             </p>{" "}
             <div className="bg-grey-600 h-px my-12" />
@@ -239,12 +236,12 @@ const Privacy = () => {
             </h2>{" "}
             <p className="leading-normal text-grey-400 text-lg">
               {" "}
-              If Buy Me A Coffee, or substantially all of its assets, were
-              acquired, or in the unlikely event that Buy Me A Coffee goes out
+              If SayThanks, or substantially all of its assets, were
+              acquired, or in the unlikely event that SayThanks goes out
               of business or enters bankruptcy, user information would be one of
               the assets that is transferred or acquired by a third party. You
               acknowledge that such transfers may occur, and that any acquirer
-              of Buy Me A Coffee may continue to use your personal information
+              of SayThanks may continue to use your personal information
               as set forth in this policy.
             </p>
               <div className="bg-grey-600 h-px my-12" />
@@ -253,10 +250,10 @@ const Privacy = () => {
               </h2>{" "}
               <p className="leading-normal text-grey-400 text-lg">
                 {" "}
-                We do not run any external advertisements on Buy Me A Coffee.
+                We do not run any external advertisements on SayThanks.
                 However, we use ad networks such as Twitter Ads to collect
                 retargeting information to compile information about our users.
-                This Privacy Policy covers the use of cookies by Buy Me A Coffee
+                This Privacy Policy covers the use of cookies by SayThanks
                 and does not cover the use of cookies by any advertisers.
               </p>
               <div className="bg-grey-600 h-px my-12" />
@@ -265,7 +262,7 @@ const Privacy = () => {
               </h2>{" "}
               <p className="leading-normal text-grey-400 text-lg">
                 {" "}
-                Buy Me A Coffee is based in the United States. If you are
+                SayThanks is based in the United States. If you are
                 accessing our Services from the European Union or other regions
                 with laws governing data collection and use, please note that
                 your Personal Data will be transmitted to our servers in the
@@ -290,9 +287,9 @@ const Privacy = () => {
               </h2>{" "}
               <p className="leading-normal text-grey-400 text-lg">
                 {" "}
-                Although most changes are likely to be minor, Buy Me A Coffee
-                may change its Privacy Policy from time to time, and in Buy Me A
-                Coffee's sole discretion. Buy Me A Coffee encourages visitors to
+                Although most changes are likely to be minor, SayThanks
+                may change its Privacy Policy from time to time, and in
+                SayThanks's sole discretion. SayThanks encourages visitors to
                 frequently check this page for any changes to its Privacy
                 Policy. If you have a
               </p>

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import "../styles/index.css";
-import Trend from "react-trend";
+import "../styles/terms.css";
 
 const Index = () => {
   const [email, setEmail] = useState("");

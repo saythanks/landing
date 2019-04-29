@@ -45,16 +45,16 @@ body {
 }
 
 .hover-logo {
-  transition: all 0.1s;
-  @apply shadow-md;
-}
-
+    transition: all 0.1s;
+    @apply shadow-md;
+  }
+  
 .hover-logo:hover {
-  transform: translateY(-1px);
-  @apply shadow-lg;
+transform: translateY(-1px);
+@apply shadow-lg;
 }
 
 .hover-logo:active {
-  transform: none;
-  @apply shadow;
+transform: none;
+@apply shadow;
 }
