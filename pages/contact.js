@@ -29,7 +29,7 @@ const Index = () => {
           />
         </section>
         <section className="max-w-full md:mx-10 px-4">
-          <h1 className="text-pink-400 text-5xl mb-3 font-bold mb-10">
+          <h1 className="text-pink-400 text-4xl mb-3 font-bold mb-10">
             SayThanks
           </h1>
           <p className="text-3xl font-light text-grey-500 mb-2 ">
@@ -138,22 +138,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* 
-      <section className="py-12">
-        <div className="max-w-sm">
-          <Trend
-            smooth
-            autoDraw
-            autoDrawDuration={5000}
-            autoDrawEasing="ease-out"
-            data={[0, 2, 5, 9, 8, 10, 11, 7, 9, 8, 10, 12, 15, 22, 26]}
-            gradient={['#00c6ff', '#F0F', '#FF0']}
-            radius={10}
-            strokeWidth={2}
-            strokeLinecap={'round'}
-          />
-        </div>
-      </section> */}
     </div>
   )
 }
