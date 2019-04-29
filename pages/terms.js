@@ -14,6 +14,8 @@ const Index = () => {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
           <link rel="stylesheet" href="https://use.typekit.net/xzl5vod.css" />
+          <title> Terms — SayThanks</title>
+          <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
           <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -82,14 +84,14 @@ const Index = () => {
               the acceptable use and prohibited activities can be found at{" "}
               <a
                 href="https://www.paypal.com/us/webapps/mpp/ua/acceptableuse-full"
-                className="text-pink-400 font-bold no-underline"
+                className="text-pink-400 no-underline"
               >
                 PayPal Acceptable Use Agreement
               </a>
               <span> and </span>
               <a
                 href="https://stripe.com/gb/prohibited-businesses"
-                className="text-pink-400 font-bold no-underline"
+                className="text-pink-400 no-underline"
               >
                 Stripe Prohibited Businesses
               </a>
